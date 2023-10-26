@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "less": "less",
+    "less": "less-watch-compiler ./less/styles ./css/styles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "less": "^4.2.0"
+  },
+  "devDependencies": {
+    "less-watch-compiler": "^1.16.3"
   }
 }
